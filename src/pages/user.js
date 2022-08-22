@@ -11,7 +11,7 @@ function User() {
     const [apiUserIdentities, setApiUserIdentities] = useState()
     const userData = async function () {
         try {
-            let response = await fetch("https://testapp1a353d80-1a353d80-dev.auth.ap-south-1.amazoncognito.com/oauth2/userInfo", {
+            let response = await fetch("https://test-app-dev.auth.ap-south-1.amazoncognito.com/oauth2/userInfo", {
                 method: 'GET',
                 headers: {
                     "Content-Type": "application/json",
