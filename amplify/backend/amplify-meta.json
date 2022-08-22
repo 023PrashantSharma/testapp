@@ -46,7 +46,7 @@
         "UserPoolId": "ap-south-1_CnTwwinsH",
         "AppClientIDWeb": "78abdd9rdvvfs6o4980dj880v5",
         "AppClientID": "6ssa58u6fldihe3iim89e6b95e",
-        "HostedUIDomain": "testapp1a353d80-1a353d80-dev",
+        "HostedUIDomain": "test-app-dev",
         "IdentityPoolId": "ap-south-1:00e596cc-d73e-4602-b419-d5e98714d177",
         "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:552930500407:userpool/ap-south-1_CnTwwinsH",
         "IdentityPoolName": "testapp8bc8ea82_identitypool_8bc8ea82__dev",
@@ -56,12 +56,12 @@
         "AmazonWebClient": "amzn1.application-oa2-client.36e063136d094d8d94e16dc3b2f7f669",
         "FacebookWebClient": "796096011565126"
       },
-      "lastPushTimeStamp": "2022-08-22T11:53:14.650Z",
+      "lastPushTimeStamp": "2022-08-22T12:02:06.576Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
       },
-      "lastPushDirHash": "9TQARx83yrutjis9+QBHvDxRS5A="
+      "lastPushDirHash": "4q/sFwBiRUVZ+SXug9pPNRe2eFs="
     }
   },
   "function": {
@@ -75,7 +75,7 @@
         "Name": "testapp5e8ed6b9-dev",
         "LambdaExecutionRole": "testappLambdaRoleccb661af-dev"
       },
-      "lastPushTimeStamp": "2022-08-22T11:42:15.903Z",
+      "lastPushTimeStamp": "2022-08-22T12:02:06.124Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/function/testapp5e8ed6b9-cloudformation-template.json",
         "logicalId": "functiontestapp5e8ed6b9"
@@ -110,7 +110,7 @@
         "RootUrl": "https://oqz72it281.execute-api.ap-south-1.amazonaws.com/dev",
         "ApiId": "oqz72it281"
       },
-      "lastPushTimeStamp": "2022-08-22T11:42:15.945Z",
+      "lastPushTimeStamp": "2022-08-22T12:02:06.155Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/api/apida503079-cloudformation-template.json",
         "logicalId": "apiapida503079"
