@@ -21,7 +21,8 @@
       "frontendAuthConfig": {
         "socialProviders": [
           "FACEBOOK",
-          "GOOGLE"
+          "GOOGLE",
+          "AMAZON"
         ],
         "usernameAttributes": [
           "EMAIL"
@@ -55,7 +56,7 @@
         "AmazonWebClient": "amzn1.application-oa2-client.36e063136d094d8d94e16dc3b2f7f669",
         "FacebookWebClient": "796096011565126"
       },
-      "lastPushTimeStamp": "2022-08-22T11:42:16.281Z",
+      "lastPushTimeStamp": "2022-08-22T11:53:14.650Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
