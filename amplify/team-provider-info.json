@@ -13,7 +13,11 @@
     },
     "categories": {
       "auth": {
-        "testapp8bc8ea82": {}
+        "testapp8bc8ea82": {
+          "facebookAppId": "796096011565126",
+          "googleClientId": "264429127645-clch92q8nn2mk8q4rsll16i0jedq511j.apps.googleusercontent.com",
+          "amazonAppId": "amzn1.application-oa2-client.36e063136d094d8d94e16dc3b2f7f669"
+        }
       },
       "function": {
         "testapp5e8ed6b9": {

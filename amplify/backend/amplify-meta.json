@@ -49,15 +49,18 @@
         "IdentityPoolId": "ap-south-1:00e596cc-d73e-4602-b419-d5e98714d177",
         "UserPoolArn": "arn:aws:cognito-idp:ap-south-1:552930500407:userpool/ap-south-1_CnTwwinsH",
         "IdentityPoolName": "testapp8bc8ea82_identitypool_8bc8ea82__dev",
-        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"]}",
-        "UserPoolName": "testapp8bc8ea82_userpool_8bc8ea82"
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"implicit\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"]}",
+        "UserPoolName": "testapp8bc8ea82_userpool_8bc8ea82",
+        "GoogleWebClient": "264429127645-clch92q8nn2mk8q4rsll16i0jedq511j.apps.googleusercontent.com",
+        "AmazonWebClient": "amzn1.application-oa2-client.36e063136d094d8d94e16dc3b2f7f669",
+        "FacebookWebClient": "796096011565126"
       },
-      "lastPushTimeStamp": "2022-08-22T11:13:02.797Z",
+      "lastPushTimeStamp": "2022-08-22T11:42:16.281Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
       },
-      "lastPushDirHash": "UZ0msEIGWa1ZyiLBei6MDS3d4oQ="
+      "lastPushDirHash": "9TQARx83yrutjis9+QBHvDxRS5A="
     }
   },
   "function": {
@@ -71,7 +74,7 @@
         "Name": "testapp5e8ed6b9-dev",
         "LambdaExecutionRole": "testappLambdaRoleccb661af-dev"
       },
-      "lastPushTimeStamp": "2022-08-22T11:13:02.519Z",
+      "lastPushTimeStamp": "2022-08-22T11:42:15.903Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/function/testapp5e8ed6b9-cloudformation-template.json",
         "logicalId": "functiontestapp5e8ed6b9"
@@ -106,7 +109,7 @@
         "RootUrl": "https://oqz72it281.execute-api.ap-south-1.amazonaws.com/dev",
         "ApiId": "oqz72it281"
       },
-      "lastPushTimeStamp": "2022-08-22T11:13:02.539Z",
+      "lastPushTimeStamp": "2022-08-22T11:42:15.945Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/api/apida503079-cloudformation-template.json",
         "logicalId": "apiapida503079"
