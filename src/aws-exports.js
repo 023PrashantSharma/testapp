@@ -8,7 +8,7 @@ const awsmobile = {
     "aws_user_pools_id": "ap-south-1_CnTwwinsH",
     "aws_user_pools_web_client_id": "78abdd9rdvvfs6o4980dj880v5",
     "oauth": {
-        "domain": "test-app-dev.auth.ap-south-1.amazoncognito.com",
+        "domain": "testapp1a353d80-1a353d80-dev.auth.ap-south-1.amazoncognito.com",
         "scope": [
             "phone",
             "email",
@@ -24,7 +24,10 @@ const awsmobile = {
     "aws_cognito_username_attributes": [
         "EMAIL"
     ],
-    "aws_cognito_social_providers": [],
+    "aws_cognito_social_providers": [
+        "FACEBOOK",
+        "GOOGLE"
+    ],
     "aws_cognito_signup_attributes": [
         "EMAIL"
     ],
