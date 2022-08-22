@@ -41,6 +41,13 @@ const awsmobile = {
     },
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
+    ],
+    "aws_cloud_logic_custom": [
+        {
+            "name": "apida503079",
+            "endpoint": "https://oqz72it281.execute-api.ap-south-1.amazonaws.com/dev",
+            "region": "ap-south-1"
+        }
     ]
 };
 

@@ -45,7 +45,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
       },
-      "lastPushTimeStamp": "2022-08-22T07:50:47.141Z",
+      "lastPushTimeStamp": "2022-08-22T08:47:32.384Z",
       "output": {
         "UserPoolId": "ap-south-1_CnTwwinsH",
         "AppClientIDWeb": "78abdd9rdvvfs6o4980dj880v5",
@@ -64,7 +64,27 @@
     "testapp5e8ed6b9": {
       "build": true,
       "providerPlugin": "awscloudformation",
-      "service": "Lambda"
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2022-08-22T08:44:48.493Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2022-08-22T08:44:56.685Z",
+      "distZipFilename": "testapp5e8ed6b9-6644674a347468645436-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-testapp-dev-123526-deployment",
+        "s3Key": "amplify-builds/testapp5e8ed6b9-6644674a347468645436-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/function/testapp5e8ed6b9-cloudformation-template.json",
+        "logicalId": "functiontestapp5e8ed6b9"
+      },
+      "lastPushTimeStamp": "2022-08-22T08:47:32.840Z",
+      "output": {
+        "Region": "ap-south-1",
+        "Arn": "arn:aws:lambda:ap-south-1:552930500407:function:testapp5e8ed6b9-dev",
+        "Name": "testapp5e8ed6b9-dev",
+        "LambdaExecutionRole": "testappLambdaRoleccb661af-dev"
+      },
+      "lastPushDirHash": "at/op7zTAqnS0LsAqZCdUzZ1Z6k="
     }
   },
   "api": {
@@ -80,7 +100,18 @@
             "Arn"
           ]
         }
-      ]
+      ],
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/api/apida503079-cloudformation-template.json",
+        "logicalId": "apiapida503079"
+      },
+      "lastPushTimeStamp": "2022-08-22T08:47:32.840Z",
+      "output": {
+        "ApiName": "apida503079",
+        "RootUrl": "https://oqz72it281.execute-api.ap-south-1.amazonaws.com/dev",
+        "ApiId": "oqz72it281"
+      },
+      "lastPushDirHash": "5cL58DP6zZjcGZbagTB4AMGW/Fk="
     }
   }
 }
