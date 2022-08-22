@@ -59,5 +59,28 @@
       },
       "lastPushDirHash": "+B1FPastkEFvtbgRJsdTAYzaUmc="
     }
+  },
+  "function": {
+    "testapp5e8ed6b9": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "api": {
+    "apida503079": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "testapp5e8ed6b9",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
   }
 }
