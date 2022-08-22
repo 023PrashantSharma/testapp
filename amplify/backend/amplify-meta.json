@@ -34,7 +34,7 @@
           "passwordPolicyMinLength": 8,
           "passwordPolicyCharacters": []
         },
-        "mfaConfiguration": "OFF",
+        "mfaConfiguration": "OPTIONAL",
         "mfaTypes": [
           "SMS"
         ],
@@ -56,11 +56,44 @@
         "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"implicit\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"]}",
         "UserPoolName": "testapp8bc8ea82_userpool_8bc8ea82"
       },
-      "lastPushTimeStamp": "2022-08-22T12:33:12.642Z",
+      "lastPushTimeStamp": "2022-08-22T12:42:52.740Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
       }
+    },
+    "userPoolGroups": {
+      "service": "Cognito-UserPool-Groups",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "testapp8bc8ea82",
+          "attributes": [
+            "UserPoolId",
+            "AppClientIDWeb",
+            "AppClientID",
+            "IdentityPoolId"
+          ]
+        }
+      ],
+      "userPoolGroups": {
+        "service": "Cognito-UserPool-Groups",
+        "providerPlugin": "awscloudformation",
+        "dependsOn": [
+          {
+            "category": "auth",
+            "resourceName": "testapp8bc8ea82",
+            "attributes": [
+              "UserPoolId",
+              "AppClientIDWeb",
+              "AppClientID",
+              "IdentityPoolId"
+            ]
+          }
+        ]
+      },
+      "lastPushTimeStamp": "2022-08-22T12:42:52.752Z"
     }
   },
   "function": {
@@ -74,7 +107,7 @@
         "Name": "testapp5e8ed6b9-dev",
         "LambdaExecutionRole": "testappLambdaRoleccb661af-dev"
       },
-      "lastPushTimeStamp": "2022-08-22T12:33:12.667Z",
+      "lastPushTimeStamp": "2022-08-22T12:38:13.828Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/function/testapp5e8ed6b9-cloudformation-template.json",
         "logicalId": "functiontestapp5e8ed6b9"
@@ -104,7 +137,7 @@
         "RootUrl": "https://oqz72it281.execute-api.ap-south-1.amazonaws.com/dev",
         "ApiId": "oqz72it281"
       },
-      "lastPushTimeStamp": "2022-08-22T12:33:12.695Z",
+      "lastPushTimeStamp": "2022-08-22T12:38:13.854Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/api/apida503079-cloudformation-template.json",
         "logicalId": "apiapida503079"
