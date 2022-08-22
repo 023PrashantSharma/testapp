@@ -45,7 +45,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
       },
-      "lastPushTimeStamp": "2022-08-22T07:36:27.260Z",
+      "lastPushTimeStamp": "2022-08-22T07:50:47.141Z",
       "output": {
         "UserPoolId": "ap-south-1_CnTwwinsH",
         "AppClientIDWeb": "78abdd9rdvvfs6o4980dj880v5",
