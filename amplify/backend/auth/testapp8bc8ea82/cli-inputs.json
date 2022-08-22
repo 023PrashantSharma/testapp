@@ -36,8 +36,8 @@
     "sharedId": "8bc8ea82",
     "resourceName": "testapp8bc8ea82",
     "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
-    "hostedUI": false,
+    "useDefault": "defaultSocial",
+    "hostedUI": true,
     "usernameAttributes": [
       "email"
     ],
@@ -59,6 +59,13 @@
     },
     "breakCircularDependency": true,
     "dependsOn": [],
+    "hostedUIDomainName": "testapp1a353d80-1a353d80",
+    "authProvidersUserPool": [
+      "Facebook",
+      "Google"
+    ],
+    "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}},{\"ProviderName\":\"Google\",\"authorize_scopes\":\"openid email profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"sub\"}}]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"]}",
     "authProviders": []
   }
 }

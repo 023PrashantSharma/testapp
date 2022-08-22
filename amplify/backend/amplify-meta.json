@@ -19,7 +19,10 @@
       "dependsOn": [],
       "customAuth": false,
       "frontendAuthConfig": {
-        "socialProviders": [],
+        "socialProviders": [
+          "FACEBOOK",
+          "GOOGLE"
+        ],
         "usernameAttributes": [
           "EMAIL"
         ],
@@ -49,7 +52,7 @@
         "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"],\"LogoutURLs\":[\"https://main.d1ujt2aw85lu26.amplifyapp.com/\"]}",
         "UserPoolName": "testapp8bc8ea82_userpool_8bc8ea82"
       },
-      "lastPushTimeStamp": "2022-08-22T09:09:58.982Z",
+      "lastPushTimeStamp": "2022-08-22T09:21:15.350Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-testapp-dev-123526-deployment/amplify-cfn-templates/auth/testapp8bc8ea82-cloudformation-template.json",
         "logicalId": "authtestapp8bc8ea82"
